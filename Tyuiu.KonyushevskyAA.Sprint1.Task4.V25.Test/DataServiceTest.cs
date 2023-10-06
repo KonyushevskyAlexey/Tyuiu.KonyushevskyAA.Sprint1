@@ -13,7 +13,7 @@ namespace Tyuiu.KonyushevskyAA.Sprint1.Task4.V25.Test
         {
             DataService ds = new DataService();
             double a = 2;
-            double wait = 0;
+            double wait = (1 - (Math.Cos(a))) / (Math.Sin(a) * Math.Sin(a));
             var res = ds.Calculate(a);
             Assert.AreEqual(wait, res);
                
