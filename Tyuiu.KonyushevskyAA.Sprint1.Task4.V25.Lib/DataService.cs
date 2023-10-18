@@ -12,7 +12,7 @@ namespace Tyuiu.KonyushevskyAA.Sprint1.Task4.V25.Lib
     {
         public double Calculate(double a)
         {
-            var res = (1 - (Math.Cos(a)))/(Math.Sin(a) * Math.Sin(a));
+            var res = (1 - (Math.Cos(a)))/Math.Pow(Math.Sin(a),2);
             return res;
         }
     }
