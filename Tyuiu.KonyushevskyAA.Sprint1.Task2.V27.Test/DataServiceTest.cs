@@ -14,7 +14,7 @@ namespace Tyuiu.KonyushevskyAA.Sprint1.Task2.V27.Test
             DataService ds = new DataService();
             int x = 2;
             var res = ds.CalculateSquarePerimetr(x);
-            Assert.AreEqual(4, res);
+            Assert.AreEqual(res,8);
         }
     }
 }
